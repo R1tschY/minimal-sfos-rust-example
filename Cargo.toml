@@ -1,0 +1,8 @@
+[package]
+name = "minimal-rust-example"
+version = "0.1.0"
+authors = ["Richard Liebscher <r1tschy@posteo.de>"]
+description = "A minimal Rust example for SailfishOS"
+license = "GPL-3.0-or-later"
+edition = "2018"
+
