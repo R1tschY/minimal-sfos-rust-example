@@ -1,9 +1,5 @@
 use std::ffi::CStr;
-use std::os::raw::c_char;
-
-extern "C" {
-  fn qt_version() -> *const c_char;
-}
+use ffi::qt_version;
 
 
 fn main() {

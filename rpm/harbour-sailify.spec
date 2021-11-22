@@ -6,6 +6,7 @@ Group:      Qt/Qt
 License:    LICENSE
 URL:        http://example.org/
 Source0:    %{name}-%{version}.tar.bz2
+BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  rust
 BuildRequires:  cargo
 

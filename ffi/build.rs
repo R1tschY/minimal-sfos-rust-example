@@ -7,5 +7,5 @@ fn main() {
         .cpp(true)
         .includes(qt5core.include_paths)
         .file("src/lib.cpp")
-        .compile("lib");
+        .compile("myffi");
 }
