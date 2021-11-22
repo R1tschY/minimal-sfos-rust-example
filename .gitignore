@@ -16,5 +16,8 @@
 /.idea
 *.iml
 
+# VS Code
+.vscode
+
 # dotenv
 .env

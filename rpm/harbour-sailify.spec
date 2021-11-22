@@ -21,6 +21,7 @@ Just a minimal example to compile a Rust binary in Sailfish OS.
 %build
 
 export CARGO_INCREMENTAL=0
+export CRATE_CC_NO_DEFAULTS=1
 cargo build --release --target-dir=target --manifest-path %{_sourcedir}/../Cargo.toml
 
 # - INSTALL --------------------------------------------------------------------
